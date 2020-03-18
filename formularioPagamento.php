@@ -21,7 +21,7 @@ include "menu.php";
             <div class="col">
                 <div class="card shadow">
                     <div class="card-header border-1">
-                        <h3 class="mb-0">Cadastro categoria</h3>
+                        <h3 class="mb-0">Cadastro de pagamento</h3>
                     </div>
 
                     <div class="container">
@@ -29,8 +29,8 @@ include "menu.php";
                             <div class="row">
                                 <div class="col-md-6 mt-2">
                                     <div class="form-group">
-                                        <label class="form-control-label">Nome</label>
-                                        <input class="form-control" name="categoria" type="text" placeholder="Informe uma categoria" id="example-text-input" required>
+                                        <label class="form-control-label">Tipo de pagamento</label>
+                                        <input class="form-control" name="pagamento" type="text" placeholder="Informe um tipo de pagamento" id="example-text-input" required>
                                     </div>
                                 </div>
                             </div>
